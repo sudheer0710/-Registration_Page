@@ -49,7 +49,7 @@ form.addEventListener("submit", async (e) => {
     };
 
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbxuR7QjQyNmgKeYGUbaWNDGOnRppsEK_YkbNg6Y8UG0-fp4WbhW6eK4aY17x0_Lq-1L/exec", {
+      await fetch("YOUR SCRIPT URL", {
         method: "POST",
         mode: "no-cors",
         body: JSON.stringify(data),
